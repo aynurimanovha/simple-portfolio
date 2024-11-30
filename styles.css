@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e2a47; /* Deep blue */
+    color: #fff;
+}
+
+header {
+    background-color: #2d3b6b; /* Slightly lighter deep blue */
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #4db6ac; /* Teal */
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero {
+    background: url('your-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.about, .projects, .skills, .contact {
+    background-color: #2d3b6b;
+}
+
+.about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.about h2 {
+    font-size: 32px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #4db6ac;
+}
+
+.projects .card, .skills .card {
+    background-color: #2a3d5c;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.projects .card:hover, .skills .card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #1e2a47;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
